@@ -13,10 +13,10 @@
 
   var chart = c3.generate({
        data: {
-      //     columns: [
-      //         ['pigeon', 30],
-      //         ['cricket', 117],
-      //     ],
+          columns: [
+              ['pigeon', 30],
+              ['cricket', 117],
+          ],
           type : 'donut',
           onclick: function (d, i) { console.log("onclick", d, i); },
           onmouseover: function (d, i) { console.log("onmouseover", d, i); },
